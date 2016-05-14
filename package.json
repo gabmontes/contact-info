@@ -1,0 +1,27 @@
+{
+  "name": "@gabmontes/contact-info",
+  "version": "1.0.0",
+  "description": "Gabriel Montes' contact information",
+  "keywords": [
+    "gabriel",
+    "montes",
+    "contact",
+    "info",
+    "information",
+    "resume",
+    "linkedin",
+    "github",
+    "phone",
+    "email"
+  ],
+  "license": "WTFPL",
+  "author": "Gabriel Montes",
+  "main": "index.js",
+  "bin": {
+    "contact-gabmontes": "./print.js"
+  },
+  "repository": "gabmontes/contact-info",
+  "scripts": {
+    "postinstall": "contact-gabmontes"
+  }
+}
